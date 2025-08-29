@@ -24,7 +24,7 @@ export function ErrorDisplay({ code = 404, message = 'Page not found.' }: ErrorD
                 </CardContent>
                 <CardFooter className="justify-center">
                     <Button asChild variant="ghost" className="gap-2">
-                        <Link to="/">
+                        <Link to="/online-drawing/">
                             <Home className="h-4 w-4" />
                             Go Home
                         </Link>

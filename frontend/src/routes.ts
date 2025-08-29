@@ -1,11 +1,14 @@
 import {
     type RouteConfig,
     index,
+    prefix,
     route,
 } from '@react-router/dev/routes';
 
 export default [
-    index('routes/_index.tsx'),
+    ...prefix('online-drawing', [
+        index('routes/_index.tsx'),
+    ]),
     route('/rooms', 'routes/Rooms.tsx'),
     route('/room/create', 'routes/RoomCreate.tsx'),
     route('/room/:url', 'routes/Room.tsx'),
