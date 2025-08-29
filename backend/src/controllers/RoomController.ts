@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { CreateRoomDTO } from '../validators/roomValidator.ts';
 import { RoomData, roomDataMap } from '../models/Room.ts';
-import { DrawingCRDT } from '../../../shared/classes/crdt.ts';
+import { DrawingCRDT } from '../../../shared/classes/Crdt.ts';
 
 export default class RoomController {
     create(req: Request<unknown, unknown, CreateRoomDTO>, res: Response) {

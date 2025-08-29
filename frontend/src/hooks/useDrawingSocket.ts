@@ -1,7 +1,7 @@
 import { Stroke } from '#shared/classes/Stroke';
 import { SocketContext, type SocketType } from '@/contexts/SocketsProvider';
 import { useContext, useEffect, useRef } from 'react';
-import { DrawingCRDT, type Op } from '#shared/classes/crdt';
+import { DrawingCRDT, type Op } from '#shared/classes/Crdt';
 
 export function useDrawingSocket(onRender?: (strokes: Map<string, Stroke>) => void) {
     const socket = useContext(SocketContext);

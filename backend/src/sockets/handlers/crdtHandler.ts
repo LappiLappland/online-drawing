@@ -1,6 +1,6 @@
 import { getRoomData, getUserInfo } from '../helpers.ts';
 import { SocketServer, UsedSocket } from '../socketServer.ts';
-import { Op } from '../../../../shared/classes/crdt.ts';
+import { Op } from '../../../../shared/classes/Crdt.ts';
 
 export function addCRDTHandlers(
     io: SocketServer,

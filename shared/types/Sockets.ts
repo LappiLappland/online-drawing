@@ -1,4 +1,4 @@
-import { Op } from "../classes/crdt";
+import { Op } from "../classes/Crdt";
 import { ChatMessage } from "./ChatMessage";
 import { RoomUser } from "./RoomUser";
 

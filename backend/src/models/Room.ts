@@ -1,4 +1,4 @@
-import { DrawingCRDT } from '../../../shared/classes/crdt.ts';
+import { DrawingCRDT } from '../../../shared/classes/Crdt.ts';
 import { ChatMessage } from '../../../shared/types/ChatMessage.ts';
 import { RoomUser } from '../../../shared/types/RoomUser.ts';
 

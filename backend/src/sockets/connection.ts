@@ -2,7 +2,7 @@ import { SocketServer, UsedSocket } from './socketServer.ts';
 import { RoomUser } from '../../../shared/types/RoomUser.ts';
 import { addUserHandlers } from './handlers/userHandlers.ts';
 import { addMessageHandlers } from './handlers/messageHandler.ts';
-import { addCRDTHandlers } from './handlers/crdtHandler.ts';
+import { addCRDTHandlers } from './handlers/CrdtHandler.ts';
 import { roomDataMap } from '../models/Room.ts';
 
 export function handleConnection(io: SocketServer, socket: UsedSocket) {
