@@ -15,22 +15,25 @@
 
 ---
 
-## 🎥 Showcase Videos
+## 🎥 Showcase videos
 
-| Feature | Video |
-|-------|-------|
-| **General Use** | [![Watch General Demo](https://img.youtube.com/vi/YOUTUBE_ID_1/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_ID_1) |
-| **Reconnection & CRDT Resolution** | [![Watch Reconnection Demo](https://img.youtube.com/vi/YOUTUBE_ID_2/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_ID_2) |
+### General use
 
----
+[general.webm](https://github.com/user-attachments/assets/46f1877c-90e3-4b06-bb69-be5f4179247e)
 
-## 🚀 Try It Live
+### Reconnection and high ping resolution
 
-👉 [Open Offline Mode Only](https://your-app-link.com/offline) *(Fully functional without server)*
+[reconnect.webm](https://github.com/user-attachments/assets/2b4c22bd-9f9a-4a03-a00f-6bb0d95dad8a)
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Try it
+
+👉 [Open offline mode only](https://lappilappland.github.io/online-drawing/) *(Fully functional without server)*
+
+---
+
+## 🛠️ Tech stack
 
 ### Frontend
 - **Framework**: React + Vite
