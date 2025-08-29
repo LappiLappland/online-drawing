@@ -1,5 +1,5 @@
 import { DrawingOptions } from "../types/DrawingOptions";
-import { Stroke } from "./stroke";
+import { Stroke } from "./Stroke";
 
 export interface Op {
   id: string;
