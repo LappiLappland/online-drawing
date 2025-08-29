@@ -1,0 +1,20 @@
+{
+  "files": [],
+  "include": [
+    ".react-router/types/**/*",
+    "../shared/types/**/*"
+  ],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "#shared": ["../shared"],
+      "#shared/*": ["../shared/*"],
+      "rootDirs": [".", "./.react-router/types"]
+    }
+  }
+}
